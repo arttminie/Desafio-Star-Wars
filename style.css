@@ -1,0 +1,103 @@
+  /*----Fonts----*/
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Italic.ttf)format('truetype');
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url(fonts/Bitter-ExtraLight.ttf)format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*     header pc    */
+
+.header-background{
+    display: flex;
+    justify-content: center;
+    height: 90vh; 
+}
+.Kylo-Ren{
+    display: flex;
+    position: absolute;
+    top: 7vh;
+    left: 12vw;
+    height: 40em;
+}
+.titulo{
+   display: flex;
+   position: absolute;
+   top: 49vh;
+   left: 17rem;
+   height: 4.6em;
+}
+.titulo2{
+   display: flex;
+   position: absolute;
+   top: 49vh;
+   left: 51.5rem;
+   height: 4.6em;
+} 
+.box{
+   display: flex;
+   position: absolute;
+   top: 70vh;
+   left: 73vw;
+   height: 6.5em;
+}
+.image-robot{
+    display: flex;
+    height: 55.3em;
+}
+.box-red{
+    display: flex;
+    position: absolute;
+    top: 80vh;
+    left: 15vw;
+    height: 24.9em;
+}
+.paragrafo{
+    display: flex;
+    position: absolute;
+    top: 91vh;
+    left: 20vw;
+}
+h1{
+    display: block;
+    font-size: 1.9em;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 11vw;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.text{
+    display: flex;
+    position: absolute;
+    top: 110vh;
+    left: 15rem;
+    overflow-wrap: break-word;
+}
+.text p{
+    display: block;
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-family: 'Bitter';
+    width: 16vw;
+    justify-content: space-around;
+}
+.box p{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+.break p{
+    display: flex;
+    position: absolute;
+    top: 74vh;
+    left: 73vw;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
