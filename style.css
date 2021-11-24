@@ -7,6 +7,7 @@
     font-family: 'Bitter';
     src: url(fonts/Bitter-ExtraLight.ttf)format('truetype');
 }
+  /*  reset  */
 *{
     margin: 0;
     padding: 0;
@@ -90,7 +91,8 @@ h1{
 }
 .box p{
     text-transform: uppercase;
-    font-family: 'Roboto';
+    font-family: 'Bitter';
+    
 }
 .break p{
     display: flex;
@@ -98,6 +100,36 @@ h1{
     top: 74vh;
     left: 73vw;
     text-transform: uppercase;
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family: 'Bitter';
+}
+.negrito {
+   display: flex;
+   position: absolute;
+   top: 74vh;
+   left: 64.7em;
+}
+.negrito p{
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    font-family: 'Roboto', 'Bitter';
+    font-weight: 900;
+}
+.linha{
+    background-color: #000000;
+    width: 7vw;
+    height: 0.2em;
+    position: absolute;
+    top: 79vh;
+    left: 73vw;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    top: 84vh;
+    left: 73vw;
+}
+.menu p{
+    font-family: 'Bitter';
+    font-size: 1.2em;
+    font-weight: bold;
 }
