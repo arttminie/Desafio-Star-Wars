@@ -62,12 +62,16 @@
     display: flex;
     position: absolute;
     top: 34.4em;
-    left: 63.6rem;
+    left: 63.9rem;
+}
+.numbers p{
+    font-family: 'Mukta';
 }
 .numbers span{
-    font-size: 1.7em;
+    font-size: 1.4em;
     position: relative;    
-    left: 0.3em;
+    left: 0.1em;
+    font-family: 'Mukta';
 }
 a{
    position: relative;
@@ -94,21 +98,69 @@ a{
     left: 13.9rem;
 }
 .robot-image img{
-    height: 180vh;
+    height: 173vh;  
 }
 .linha2{
     height: 0.2em;
     width: 73vw;
     background-color: #696969;
     position: absolute;
-    top: 145vh;
+    top: 158vh;
     left: 13.8rem;
 }
-.battleground{
+ /*  começo da main    */                    
+
+.battlefront{
     position: absolute;
-    top: 109vh;
+    top: 110vh;
     left: 58.2rem;
 }
-.battleground img{
+.battlefront img{
     height: 26vh;
 }
+.sobre-o-jogo {
+    display: flex;
+    position: absolute;
+    top: 107vh;
+    left: 58vw;
+}
+.sobre-o-jogo strong{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: 'Mukta', Arial, sans-serif;
+    font-weight: bold;
+}
+.linha3{
+    height: 0.4%;
+    width: 7vw;
+    background-color: #1C1C1C;
+    position: absolute;
+    top: 113vh;
+    left: 60vw;
+}
+.homem-vermelho{
+    position: absolute;
+    top: 170vh;
+    left: 16vw;
+}
+.homem-vermelho img{
+    height: 91vh;
+}
+.sobre{
+    display: block;
+    position: absolute;
+    top: 115vh;
+    left: 47vw;
+}
+.sobre p{
+    width:21vw;
+    font-size: 0.9rem;
+    font-family: 'Mukta', sans-serif, Arial;
+    font-weight: 300;
+}
+ /*    início do conteúdo   */ 
+
+ .retangulo{
+     position: absolute;
+     top: 256vh;
+ }
