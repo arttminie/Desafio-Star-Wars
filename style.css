@@ -3,7 +3,7 @@
      src: url(/fonts/Mukta-ExtraLight.ttf)format('truetype');
  }
 
-  /*  reset  */
+  /*  RESET  */
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
     text-decoration: none;
     list-style: none;
 }
-/*     header pc    */
+/*   HEADER PC   */
 
 .header-background{
     display: flex;
@@ -90,6 +90,10 @@ a{
     margin: 0.1em;
     padding: 0.5rem;
 } 
+/*   FINAL DA HEADER    */
+
+/*   COMEÇO DA MAIN */
+
 .red-box img{
     height: 63vh;
     width: 20vw;
@@ -102,54 +106,64 @@ a{
 }
 .linha2{
     height: 0.2em;
-    width: 73vw;
+    width: 75vw;
     background-color: #696969;
     position: absolute;
     top: 158vh;
     left: 13.8rem;
 }
- /*  começo da main    */                    
-
 .battlefront{
     position: absolute;
-    top: 110vh;
+    top: 112vh;
     left: 58.2rem;
 }
 .battlefront img{
-    height: 26vh;
+    height: 28vh;
+}
+.battlefront img:hover{
+    filter: brightness(1.5) contrast(1.05);
+    transform: scalex(1.0);
 }
 .sobre-o-jogo {
     display: flex;
     position: absolute;
-    top: 107vh;
+    top: 111vh;
     left: 58vw;
 }
 .sobre-o-jogo strong{
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-transform: uppercase;
     font-family: 'Mukta', Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 900;
 }
 .linha3{
     height: 0.4%;
     width: 7vw;
     background-color: #1C1C1C;
     position: absolute;
-    top: 113vh;
+    top: 117vh;
     left: 60vw;
 }
 .homem-vermelho{
     position: absolute;
-    top: 170vh;
+    top: 164vh;
     left: 16vw;
 }
 .homem-vermelho img{
-    height: 91vh;
+    height: 97vh;
+}
+.rey{
+    position: absolute;
+    top: 175vh;
+    left: 74vw;
+}
+.rey img{
+    height: 86vh;
 }
 .sobre{
     display: block;
     position: absolute;
-    top: 115vh;
+    top: 118vh;
     left: 47vw;
 }
 .sobre p{
@@ -158,9 +172,55 @@ a{
     font-family: 'Mukta', sans-serif, Arial;
     font-weight: 300;
 }
- /*    início do conteúdo   */ 
+.list{
+    position: absolute;
+    top: 169vh;
+    left: 50vw;
+    width: 24vw;
+}
+.list h2{
+    font-size: 3.7em;
+    font-family: 'Mukta', sans-serif;
+    text-transform: uppercase;
+    line-height: 4vw;
+    position: relative;
+    left: 4vw;
+}
+.list  strong{
+    font-weight: 900;
+    font-size: 1.1em;
+    font-family: Arial, sans-serif;
+}
+.list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+.list ul li a{
+   display: block;
+   justify-content: space-between;
+   height: 2.7em;
+   color: #000000;
+   font-family: 'Mukta', sans-serif;
+   text-transform: uppercase;
+   font-size: 1.3em;
+   font-weight: 600;
+}
+.list a:hover{
+     color: #ffff;
+     background-color: #EE3B3B;
+     width: 23vw;
+     height: 5vh;
+     display: flex;
+     justify-content: end;
+     font-family: 'Mukta';
+}
+ /*  INÍCIO DO CONTEÚDO  */ 
 
- .retangulo{
-     position: absolute;
-     top: 256vh;
- }
+.grey-box img{
+   width: 100vw;
+   position: absolute;
+   top: 253vh;
+}
+
